@@ -61,7 +61,9 @@ public class Hms {
 		  driver.findElement(By.name("ADDRESS2")).sendKeys("Guntur");
 		  driver.findElement(By.name("ZIP")).sendKeys("522017");
 		  driver.findElement(By.name("image")). sendKeys("F:\\Testing software\\download.jpg");
+		  Thread.sleep(2000);
 		  driver.findElement(By.name("submit")).click();
+		 
 		  Thread.sleep(5000);
 		  
 		
